@@ -13,7 +13,7 @@ const  YenePayCheckoutButton = ({
 }) => {
   useScript('https://www.yenepay.com/bundles/sdk/js/v1/sdk.min.js')
   const setting = {
-    merchantId: '0049',
+    merchantId: '000',
     forceWhenDuplicate: true,
     useSandbox: false
   }
