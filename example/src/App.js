@@ -12,6 +12,9 @@ const App = () => {
   itemName="My Item"
   unitPrice={1}
   quantity={1}
+  forceWhenDuplicate={false}
+  useSandbox={true}
+  merchantId="0220"
     />
 }
 
