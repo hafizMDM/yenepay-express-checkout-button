@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-yenepay-express-checkout'
+import YenePayCheckoutButton from 'react-yenepay-express-checkout'
 import 'react-yenepay-express-checkout/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <YenePayCheckoutButton
+  ipnUrl="https://yourdomain.com/ipn"
+  successUrl="https://yourdomain.com/success"
+  merchantOrderId="OR01"
+  itemId="IT1001"
+  itemName="My Item"
+  unitPrice={1}
+  quantity={1}
+    />
 }
 
 export default App

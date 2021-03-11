@@ -9,19 +9,28 @@
 ```bash
 npm install --save react-yenepay-express-checkout
 ```
-
+```bash
+yarn react-yenepay-express-checkout -g
+```
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-yenepay-express-checkout'
+import YenePayCheckoutButton from 'react-yenepay-express-checkout'
 import 'react-yenepay-express-checkout/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const ExampleComponent = () => {
+    return 
+     <YenePayCheckoutButton
+        ipnUrl="https://yourdomain.com/ipn"
+        successUrl="https://yourdomain.com/success"
+        merchantOrderId="OR01"
+        itemId="IT1001"
+        itemName="My Item"
+        unitPrice={1}
+        quantity={1}
+      />
 }
 ```
 
