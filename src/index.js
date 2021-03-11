@@ -50,8 +50,4 @@ const YenePayCheckoutButton = ({
   )
 }
 
-<<<<<<< HEAD
 export default YenePayCheckoutButton
-=======
-export default YenePayCheckoutButton;
->>>>>>> abd5a72b9a0dbc14f2f6345cb4a738bde7bf1a68
