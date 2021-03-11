@@ -1,10 +1,10 @@
 {
   "name": "react-yenepay-express-checkout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "YenePay Express Checkout React Component",
   "author": "hafizMDM",
   "license": "MIT",
-  "repository": "hafizMDM/react-yenepay-express-checkout",
+  "repository": "hafizMDM/yenepay-express-checkout-button",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

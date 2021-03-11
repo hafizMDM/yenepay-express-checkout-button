@@ -10,7 +10,7 @@
 npm install --save react-yenepay-express-checkout
 ```
 ```bash
-yarn react-yenepay-express-checkout -g
+yarn react-yenepay-express-checkout
 ```
 ## Usage
 
