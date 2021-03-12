@@ -15,6 +15,7 @@ const App = () => {
   forceWhenDuplicate={false}
   useSandbox={true}
   merchantId="0220"
+  onSuccess={(data) => console.log(data) }
     />
 }
 

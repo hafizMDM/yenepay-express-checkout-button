@@ -12,7 +12,8 @@ const YenePayCheckoutButton = ({
   quantity,
   forceWhenDuplicate,
   useSandbox,
-  merchantId
+  merchantId,
+  onSuccess
 }) => {
   useScript('https://www.yenepay.com/bundles/sdk/js/v1/sdk.min.js')
 
@@ -36,7 +37,7 @@ const YenePayCheckoutButton = ({
     new window.YenePay(setting)
       .process(paymentRequest)
       .then(function (data) {
-        console.log('Success payment called')
+        onSuccess(data);
       })
       .catch(function (err) {
         console.log(err)
