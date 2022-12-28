@@ -15,7 +15,7 @@ const YenePayCheckoutButton = ({
   merchantId,
   onSuccess
 }) => {
-  useScript('https://www.yenepay.com/bundles/sdk/js/v1/sdk.min.js')
+  useScript('https://yenepay.com/bundles/sdk/js/v1/sdk.min.js')
 
   const paymentRequest = {
     process: 'Express',
